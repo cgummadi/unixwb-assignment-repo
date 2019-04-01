@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 function filescount {
-echo $(find . -type f | wc -l)
+echo $(ls | wc -l)
 }
 count=$(filescount)
 #echo $count
